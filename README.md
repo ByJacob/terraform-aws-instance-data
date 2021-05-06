@@ -31,11 +31,11 @@ module "cdn" {
 
 By default, the module requires no input. The following variables are only for retrieving the instance types. I set them as variables so that in the absence of updates you could change the URL yourself.
 
-| Name                  | Description                                | Type   | Default                 |
-| --------------------- | ------------------------------------------ | ------ | ----------------------- |
-| elasticache_raw_url   | URL provide file elasticache-outposts.json | String | Check `elasticcache.tf` |
-| elasticsearch_raw_url | URL provide file es-ondemand.json          | String | Check `elasticcache.tf` |
-| rds_raw_url           | URL provide file rds-mysql-ondemand.json   | String | Check `rds.tf`          |
+| Name                  | Description                                | Type   | Default                  |
+| --------------------- | ------------------------------------------ | ------ | ------------------------ |
+| elasticache_raw_url   | URL provide file elasticache-outposts.json | String | Check `elasticcache.tf`  |
+| elasticsearch_raw_url | URL provide file es-ondemand.json          | String | Check `elasticsearch.tf` |
+| rds_raw_url           | URL provide file rds-mysql-ondemand.json   | String | Check `rds.tf`           |
 
 ## Outputs
 

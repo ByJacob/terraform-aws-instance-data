@@ -39,8 +39,8 @@ By default, the module requires no input. The following variables are only for r
 
 ## Outputs
 
-| Name                               | Description               |
-| ---------------------------------- | ------------------------- |
-| elasticache_instance_type_params   | Contains all ElasticCache |
-| elasticsearch_instance_type_params | Contains all ElasticCache |
-| rds_instance_type_params           | Contains all ElasticCache |
+| Name                               | Description                          |
+| ---------------------------------- | ------------------------------------ |
+| elasticache_instance_type_params   | Contains all ElasticCache instances  |
+| elasticsearch_instance_type_params | Contains all ElasticSearch instances |
+| rds_instance_type_params           | Contains all RDS instances           |

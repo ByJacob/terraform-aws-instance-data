@@ -5,7 +5,7 @@ Terraform module providing data on RDS, ES and ElasticCache instances. This modu
 ## Usage
 
 ```hcl
-module "cdn" {
+module "instance-data" {
   source = "git::https://example.com/terraform-aws-instance-data"
   # I highly recommend that in your code you pin the version exactly to the version you are using to keep your infrastructure stable and update the versions systematically so that they do not surprise you.
   # source = "git::https://example.com/terraform-aws-instance-data?ref=GIT_TAG"

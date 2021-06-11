@@ -2,6 +2,7 @@
 
 variable "elasticsearch_raw_url" {
   default = "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/es/USD/current/es-ondemand.json"
+  description = "URL provide file es-ondemand.json "
 }
 
 data "http" "elasticsearch_outposts" {
@@ -39,4 +40,5 @@ locals {
 
 output "elasticsearch_instance_type_params" {
   value = local.data_elasticsearch_instance_type
+  description = "Contains all ElasticSearch instances"
 }

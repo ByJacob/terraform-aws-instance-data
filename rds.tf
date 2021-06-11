@@ -2,6 +2,7 @@
 
 variable "rds_raw_url" {
   default = "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/rds/USD/current/rds-mysql-ondemand.json"
+  description = "URL provide file rds-mysql-ondemand.json"
 }
 
 data "http" "rds_json" {
@@ -40,4 +41,5 @@ locals {
 
 output "rds_instance_type_params" {
   value = local.data_rds_instance_type
+  description = "Contains all RDS instances"
 }

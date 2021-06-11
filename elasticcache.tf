@@ -2,6 +2,7 @@
 
 variable "elasticache_raw_url" {
   default = "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/elasticache/USD/current/elasticache-outposts.json"
+  description = "URL provide file elasticache-outposts.json"
 }
 
 data "http" "elasticache_outposts" {
@@ -40,4 +41,5 @@ locals {
 
 output "elasticache_instance_type_params" {
   value = local.data_elasticache_instance_type
+  description = "Contains all ElasticCache instances"
 }

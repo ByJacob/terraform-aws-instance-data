@@ -1,5 +1,5 @@
-data "aws_region" "current" {}
-
 locals {
-  aws_region_name = replace(data.aws_region.current.description, "Europe", "EU")
+  data_elasticache_instance_type = jsondecode(file("${path.module}/data/data_elasticache.json"))
+  data_search_instance_type = jsondecode(file("${path.module}/data/data_search.json"))
+  data_rds_instance_type = jsondecode(file("${path.module}/data/data_rds.json"))
 }

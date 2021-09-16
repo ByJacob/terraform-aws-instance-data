@@ -1,0 +1,318 @@
+{
+    "c4.2xlarge.search": {
+        "memory_gb": 15.0,
+        "vcpu": 8
+    },
+    "c4.4xlarge.search": {
+        "memory_gb": 30.0,
+        "vcpu": 16
+    },
+    "c4.8xlarge.search": {
+        "memory_gb": 60.0,
+        "vcpu": 36
+    },
+    "c4.large.search": {
+        "memory_gb": 3.75,
+        "vcpu": 2
+    },
+    "c4.xlarge.search": {
+        "memory_gb": 7.5,
+        "vcpu": 4
+    },
+    "c5.18xlarge.search": {
+        "memory_gb": 144.0,
+        "vcpu": 72
+    },
+    "c5.2xlarge.search": {
+        "memory_gb": 16.0,
+        "vcpu": 8
+    },
+    "c5.4xlarge.search": {
+        "memory_gb": 32.0,
+        "vcpu": 16
+    },
+    "c5.9xlarge.search": {
+        "memory_gb": 72.0,
+        "vcpu": 36
+    },
+    "c5.large.search": {
+        "memory_gb": 4.0,
+        "vcpu": 2
+    },
+    "c5.xlarge.search": {
+        "memory_gb": 8.0,
+        "vcpu": 4
+    },
+    "c6g.12xlarge.search": {
+        "memory_gb": 96.0,
+        "vcpu": 48
+    },
+    "c6g.2xlarge.search": {
+        "memory_gb": 16.0,
+        "vcpu": 8
+    },
+    "c6g.4xlarge.search": {
+        "memory_gb": 32.0,
+        "vcpu": 16
+    },
+    "c6g.8xlarge.search": {
+        "memory_gb": 64.0,
+        "vcpu": 32
+    },
+    "c6g.large.search": {
+        "memory_gb": 4.0,
+        "vcpu": 2
+    },
+    "c6g.xlarge.search": {
+        "memory_gb": 8.0,
+        "vcpu": 4
+    },
+    "i2.2xlarge.search": {
+        "memory_gb": 61.0,
+        "vcpu": 8
+    },
+    "i2.xlarge.search": {
+        "memory_gb": 30.5,
+        "vcpu": 4
+    },
+    "i3.16xlarge.search": {
+        "memory_gb": 488.0,
+        "vcpu": 64
+    },
+    "i3.2xlarge.search": {
+        "memory_gb": 61.0,
+        "vcpu": 8
+    },
+    "i3.4xlarge.search": {
+        "memory_gb": 122.0,
+        "vcpu": 16
+    },
+    "i3.8xlarge.search": {
+        "memory_gb": 244.0,
+        "vcpu": 32
+    },
+    "i3.large.search": {
+        "memory_gb": 15.25,
+        "vcpu": 2
+    },
+    "i3.xlarge.search": {
+        "memory_gb": 30.5,
+        "vcpu": 4
+    },
+    "m3.2xlarge.search": {
+        "memory_gb": 30.0,
+        "vcpu": 8
+    },
+    "m3.large.search": {
+        "memory_gb": 7.5,
+        "vcpu": 2
+    },
+    "m3.medium.search": {
+        "memory_gb": 3.75,
+        "vcpu": 1
+    },
+    "m3.xlarge.search": {
+        "memory_gb": 15.0,
+        "vcpu": 4
+    },
+    "m4.10xlarge.search": {
+        "memory_gb": 160.0,
+        "vcpu": 40
+    },
+    "m4.2xlarge.search": {
+        "memory_gb": 32.0,
+        "vcpu": 8
+    },
+    "m4.4xlarge.search": {
+        "memory_gb": 64.0,
+        "vcpu": 16
+    },
+    "m4.large.search": {
+        "memory_gb": 8.0,
+        "vcpu": 2
+    },
+    "m4.xlarge.search": {
+        "memory_gb": 16.0,
+        "vcpu": 4
+    },
+    "m5.12xlarge.search": {
+        "memory_gb": 192.0,
+        "vcpu": 48
+    },
+    "m5.2xlarge.search": {
+        "memory_gb": 32.0,
+        "vcpu": 8
+    },
+    "m5.4xlarge.search": {
+        "memory_gb": 64.0,
+        "vcpu": 16
+    },
+    "m5.large.search": {
+        "memory_gb": 8.0,
+        "vcpu": 2
+    },
+    "m5.xlarge.search": {
+        "memory_gb": 16.0,
+        "vcpu": 4
+    },
+    "m6g.12xlarge.search": {
+        "memory_gb": 192.0,
+        "vcpu": 48
+    },
+    "m6g.2xlarge.search": {
+        "memory_gb": 32.0,
+        "vcpu": 8
+    },
+    "m6g.4xlarge.search": {
+        "memory_gb": 64.0,
+        "vcpu": 16
+    },
+    "m6g.8xlarge.search": {
+        "memory_gb": 128.0,
+        "vcpu": 32
+    },
+    "m6g.large.search": {
+        "memory_gb": 8.0,
+        "vcpu": 2
+    },
+    "m6g.xlarge.search": {
+        "memory_gb": 16.0,
+        "vcpu": 4
+    },
+    "r3.2xlarge.search": {
+        "memory_gb": 61.0,
+        "vcpu": 8
+    },
+    "r3.4xlarge.search": {
+        "memory_gb": 122.0,
+        "vcpu": 16
+    },
+    "r3.8xlarge.search": {
+        "memory_gb": 244.0,
+        "vcpu": 32
+    },
+    "r3.large.search": {
+        "memory_gb": 15.0,
+        "vcpu": 2
+    },
+    "r3.xlarge.search": {
+        "memory_gb": 30.5,
+        "vcpu": 4
+    },
+    "r4.16xlarge.search": {
+        "memory_gb": 488.0,
+        "vcpu": 64
+    },
+    "r4.2xlarge.search": {
+        "memory_gb": 61.0,
+        "vcpu": 8
+    },
+    "r4.4xlarge.search": {
+        "memory_gb": 122.0,
+        "vcpu": 16
+    },
+    "r4.8xlarge.search": {
+        "memory_gb": 244.0,
+        "vcpu": 32
+    },
+    "r4.large.search": {
+        "memory_gb": 15.25,
+        "vcpu": 2
+    },
+    "r4.xlarge.search": {
+        "memory_gb": 30.5,
+        "vcpu": 4
+    },
+    "r5.12xlarge.search": {
+        "memory_gb": 384.0,
+        "vcpu": 48
+    },
+    "r5.2xlarge.search": {
+        "memory_gb": 64.0,
+        "vcpu": 8
+    },
+    "r5.4xlarge.search": {
+        "memory_gb": 128.0,
+        "vcpu": 16
+    },
+    "r5.large.search": {
+        "memory_gb": 16.0,
+        "vcpu": 2
+    },
+    "r5.xlarge.search": {
+        "memory_gb": 32.0,
+        "vcpu": 4
+    },
+    "r6g.12xlarge.search": {
+        "memory_gb": 384.0,
+        "vcpu": 48
+    },
+    "r6g.2xlarge.search": {
+        "memory_gb": 64.0,
+        "vcpu": 8
+    },
+    "r6g.4xlarge.search": {
+        "memory_gb": 128.0,
+        "vcpu": 16
+    },
+    "r6g.8xlarge.search": {
+        "memory_gb": 256.0,
+        "vcpu": 32
+    },
+    "r6g.large.search": {
+        "memory_gb": 16.0,
+        "vcpu": 2
+    },
+    "r6g.xlarge.search": {
+        "memory_gb": 32.0,
+        "vcpu": 4
+    },
+    "r6gd.12xlarge.search": {
+        "memory_gb": 384.0,
+        "vcpu": 48
+    },
+    "r6gd.16xlarge.search": {
+        "memory_gb": 512.0,
+        "vcpu": 64
+    },
+    "r6gd.2xlarge.search": {
+        "memory_gb": 64.0,
+        "vcpu": 8
+    },
+    "r6gd.4xlarge.search": {
+        "memory_gb": 128.0,
+        "vcpu": 16
+    },
+    "r6gd.8xlarge.search": {
+        "memory_gb": 256.0,
+        "vcpu": 32
+    },
+    "r6gd.large.search": {
+        "memory_gb": 16.0,
+        "vcpu": 2
+    },
+    "r6gd.xlarge.search": {
+        "memory_gb": 32.0,
+        "vcpu": 4
+    },
+    "t2.medium.search": {
+        "memory_gb": 4.0,
+        "vcpu": 2
+    },
+    "t2.micro.search": {
+        "memory_gb": 1.0,
+        "vcpu": 1
+    },
+    "t2.small.search": {
+        "memory_gb": 2.0,
+        "vcpu": 1
+    },
+    "t3.medium.search": {
+        "memory_gb": 4.0,
+        "vcpu": 2
+    },
+    "t3.small.search": {
+        "memory_gb": 2.0,
+        "vcpu": 2
+    }
+}

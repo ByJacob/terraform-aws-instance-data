@@ -45,7 +45,7 @@ references:
 
 # Short description of this project
 description: |-
-  Terraform module providing data on RDS, ES and ElasticCache instances. This module provide: vCPU, memory and network_performance.
+  Terraform module providing data on RDS, ES and OpenSearch instances. This module provide: vCPU and memory value.
 
 # Introduction to the project
 #introduction: |-

@@ -1,4 +1,52 @@
 {
+    "cache.c1.xlarge": {
+        "memory_gb": 6.6,
+        "vcpu": 8
+    },
+    "cache.m1.large": {
+        "memory_gb": 7.1,
+        "vcpu": 2
+    },
+    "cache.m1.medium": {
+        "memory_gb": 3.35,
+        "vcpu": 1
+    },
+    "cache.m1.small": {
+        "memory_gb": 1.3,
+        "vcpu": 1
+    },
+    "cache.m1.xlarge": {
+        "memory_gb": 14.6,
+        "vcpu": 4
+    },
+    "cache.m2.2xlarge": {
+        "memory_gb": 33.8,
+        "vcpu": 4
+    },
+    "cache.m2.4xlarge": {
+        "memory_gb": 68.0,
+        "vcpu": 8
+    },
+    "cache.m2.xlarge": {
+        "memory_gb": 16.7,
+        "vcpu": 2
+    },
+    "cache.m3.2xlarge": {
+        "memory_gb": 27.9,
+        "vcpu": 8
+    },
+    "cache.m3.large": {
+        "memory_gb": 6.05,
+        "vcpu": 2
+    },
+    "cache.m3.medium": {
+        "memory_gb": 2.78,
+        "vcpu": 1
+    },
+    "cache.m3.xlarge": {
+        "memory_gb": 13.3,
+        "vcpu": 4
+    },
     "cache.m4.10xlarge": {
         "memory_gb": 154.64,
         "vcpu": 40
@@ -44,7 +92,7 @@
         "vcpu": 4
     },
     "cache.m6g.12xlarge": {
-        "memory_gb": 157.13,
+        "memory_gb": 157.12,
         "vcpu": 48
     },
     "cache.m6g.16xlarge": {
@@ -52,7 +100,7 @@
         "vcpu": 64
     },
     "cache.m6g.2xlarge": {
-        "memory_gb": 26.05,
+        "memory_gb": 26.04,
         "vcpu": 8
     },
     "cache.m6g.4xlarge": {
@@ -68,7 +116,27 @@
         "vcpu": 2
     },
     "cache.m6g.xlarge": {
-        "memory_gb": 12.94,
+        "memory_gb": 12.93,
+        "vcpu": 4
+    },
+    "cache.r3.2xlarge": {
+        "memory_gb": 58.2,
+        "vcpu": 8
+    },
+    "cache.r3.4xlarge": {
+        "memory_gb": 118.0,
+        "vcpu": 16
+    },
+    "cache.r3.8xlarge": {
+        "memory_gb": 237.0,
+        "vcpu": 32
+    },
+    "cache.r3.large": {
+        "memory_gb": 13.5,
+        "vcpu": 2
+    },
+    "cache.r3.xlarge": {
+        "memory_gb": 28.4,
         "vcpu": 4
     },
     "cache.r4.16xlarge": {
@@ -124,7 +192,7 @@
         "vcpu": 48
     },
     "cache.r6g.16xlarge": {
-        "memory_gb": 419.1,
+        "memory_gb": 419.09,
         "vcpu": 64
     },
     "cache.r6g.2xlarge": {
@@ -147,6 +215,34 @@
         "memory_gb": 26.32,
         "vcpu": 4
     },
+    "cache.r6gd.12xlarge": {
+        "memory_gb": 317.77,
+        "vcpu": 48
+    },
+    "cache.r6gd.16xlarge": {
+        "memory_gb": 419.09,
+        "vcpu": 64
+    },
+    "cache.r6gd.2xlarge": {
+        "memory_gb": 52.82,
+        "vcpu": 8
+    },
+    "cache.r6gd.4xlarge": {
+        "memory_gb": 105.81,
+        "vcpu": 16
+    },
+    "cache.r6gd.8xlarge": {
+        "memory_gb": 209.55,
+        "vcpu": 32
+    },
+    "cache.r6gd.xlarge": {
+        "memory_gb": 26.32,
+        "vcpu": 4
+    },
+    "cache.t1.micro": {
+        "memory_gb": 0.213,
+        "vcpu": 1
+    },
     "cache.t2.medium": {
         "memory_gb": 3.22,
         "vcpu": 2
@@ -168,6 +264,18 @@
         "vcpu": 2
     },
     "cache.t3.small": {
+        "memory_gb": 1.37,
+        "vcpu": 2
+    },
+    "cache.t4g.medium": {
+        "memory_gb": 3.09,
+        "vcpu": 2
+    },
+    "cache.t4g.micro": {
+        "memory_gb": 0.5,
+        "vcpu": 2
+    },
+    "cache.t4g.small": {
         "memory_gb": 1.37,
         "vcpu": 2
     }
